@@ -67,7 +67,7 @@ To create a new protocol implementation:
    - `babel.yaml` - Protocol metadata and configuration
    - `main.rhai` - Main protocol interface
    - `aux.rhai` - Auxiliary functions
-   - `Dockerfile` - Container configuration
+   - `Dockerfile` - Packaged application files
    - `templates/` - Configuration templates
 
 See the [Protocol Development Guide](docs/HOWTO.md) and example in `docs/example/` for a detailed walkthrough.
@@ -77,7 +77,7 @@ See the [Protocol Development Guide](docs/HOWTO.md) and example in `docs/example
 Protocol images use a standardized runtime interface based on:
 - Metadata configuration (`babel.yaml`)
 - Runtime interface (`main.rhai` and other Rhai scripts)
-- Container configuration (`Dockerfile`)
+- Packaged application files (`Dockerfile`)
 
 The BlockJoy platform uses this interface to:
 - Plan and allocate resources for node deployments
